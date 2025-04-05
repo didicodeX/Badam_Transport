@@ -1,0 +1,28 @@
+{
+  "name": "transport",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/didicodeX/Badam_Transport#readme",
+  "bugs": {
+    "url": "https://github.com/didicodeX/Badam_Transport/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/didicodeX/Badam_Transport.git"
+  },
+  "license": "ISC",
+  "author": "didicode",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "nodmeon": "^0.0.1-security"
+  }
+}
