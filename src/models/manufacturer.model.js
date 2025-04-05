@@ -1,13 +1,13 @@
 import mongoose from "mongoose";
 
 const manufacturerSchema = new mongoose.Schema({
-  name: String,
+  name: { type: String},
   rating: Number,
   address: {
-    street: String,
-    city: String,
-    postalCode: String,
-    phoneNumber: String,
+    street: { type: String},
+    city: { type: String},
+    postalCode: { type: String},
+    phoneNumber: { type: String},
     country: { type: String}
   }
 });
