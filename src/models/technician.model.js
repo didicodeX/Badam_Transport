@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { ContractTypeEnum, GenderEnum } from "../constants/enum.constant";
+import { ContractTypeEnum, GenderEnum } from "../constants/enum.constant.js";
 
 const TechnicianSchema = new mongoose.Schema({
   name: { type: String },
@@ -7,10 +7,10 @@ const TechnicianSchema = new mongoose.Schema({
   entryDate: { type: Date, default: Date.now() },
   address: {
     street: { type: String },
-    city: { typpe: String },
-    postalCode: { typpe: String },
+    city: { type: String },
+    postalCode: { type: String },
     phoneNumber: { type: String },
-    country: { typpe: String },
+    country: { type: String },
   },
   contract: {
     salary: {type: Number},

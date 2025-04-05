@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import { CountryEnum } from "../constants/enum.constant.js";
 
 const manufacturerSchema = new mongoose.Schema({
   name: String,
@@ -9,7 +8,7 @@ const manufacturerSchema = new mongoose.Schema({
     city: String,
     postalCode: String,
     phoneNumber: String,
-    country: { type: String, enum: CountryEnum }
+    country: { type: String}
   }
 });
 
